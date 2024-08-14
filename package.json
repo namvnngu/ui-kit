@@ -3,6 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "Viet Nam Nguyen",
+  "homepage": "https://github.com/namvnngu/ui-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namvnngu/ui-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/namvnngu/ui-kit/issues"
+  },
   "scripts": {
     "lint": "eslint .",
     "types:check": "tsc --skipLibCheck --noEmit",
