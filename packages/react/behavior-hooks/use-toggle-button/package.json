@@ -1,5 +1,5 @@
 {
-  "name": "@namui/react-state-hooks",
+  "name": "@namui/react/behavior-hooks/use-toggle-button",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Viet Nam Nguyen",
@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/namvnngu/namui",
-    "directory": "packages/react/state-hooks"
+    "directory": "packages/react/behavior-hooks/use-toggle-button"
   },
   "bugs": {
     "url": "https://github.com/namvnngu/namui/issues"

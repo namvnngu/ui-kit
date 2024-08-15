@@ -1,5 +1,5 @@
 {
-  "name": "@namui/react-components",
+  "name": "@namui/react/components/button",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Viet Nam Nguyen",
@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/namvnngu/namui",
-    "directory": "packages/react/components"
+    "directory": "packages/react/components/button"
   },
   "bugs": {
     "url": "https://github.com/namvnngu/namui/issues"

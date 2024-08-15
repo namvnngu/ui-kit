@@ -1,5 +1,5 @@
 {
-  "name": "@namui/react-utility-hooks",
+  "name": "@namui/react/utility-hooks/use-callback-ref",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Viet Nam Nguyen",
@@ -7,7 +7,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/namvnngu/namui",
-    "directory": "packages/react/utility-hooks"
+    "directory": "packages/react/utility-hooks/use-callback-ref"
   },
   "bugs": {
     "url": "https://github.com/namvnngu/namui/issues"
