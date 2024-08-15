@@ -14,7 +14,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "types:check": "tsc --skipLibCheck --noEmit",
+    "type": "tsc --skipLibCheck --noEmit",
     "format": "prettier --write **/*.{js,ts,jsx,tsx}",
     "dev": "pnpm -r --parallel run dev",
     "cleanup": "./scripts/cleanup.sh",

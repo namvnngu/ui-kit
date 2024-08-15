@@ -1,7 +1,6 @@
 {
   "include": [
-    "packages",
-    "apps"
+    "packages"
   ],
   "compilerOptions": {
     "esModuleInterop": true,
