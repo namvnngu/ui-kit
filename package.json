@@ -13,12 +13,13 @@
     "url": "https://github.com/namvnngu/namui/issues"
   },
   "scripts": {
-    "lint": "eslint .",
-    "typecheck": "tsc --skipLibCheck --noEmit",
-    "format": "prettier --write **/*.{js,ts,jsx,tsx}",
-    "dev": "pnpm -r --parallel run dev",
     "cleanup": "./scripts/cleanup.sh",
-    "package:count": "./scripts/package-count.sh"
+    "dev": "pnpm -r --parallel run dev",
+    "format": "prettier --write **/*.{js,ts,jsx,tsx}",
+    "lint": "eslint .",
+    "package:count": "./scripts/package-count.sh",
+    "storybook": "./scripts/storybook.sh",
+    "typecheck": "tsc --skipLibCheck --noEmit"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -30,5 +31,5 @@
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.1.0"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.8.0"
 }
