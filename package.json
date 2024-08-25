@@ -15,21 +15,15 @@
   "scripts": {
     "clean": "./scripts/clean.sh",
     "dev": "pnpm -r --parallel run dev",
-    "format": "prettier --write **/*.{js,ts,jsx,tsx}",
-    "lint": "eslint .",
+    "format": "biome format --write ./",
+    "lint": "biome lint ./",
     "package:count": "./scripts/package-count.sh",
     "storybook": "./scripts/storybook.sh",
     "typecheck": "tsc --skipLibCheck --noEmit"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "eslint": "^9.9.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "globals": "^15.9.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.1.0"
+    "@biomejs/biome": "1.8.3",
+    "typescript": "^5.5.4"
   },
   "packageManager": "pnpm@9.8.0"
 }
