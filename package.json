@@ -18,13 +18,16 @@
     "dev": "pnpm -r --parallel run dev",
     "build": "pnpm -r --parallel run build",
     "typecheck": "tsc --skipLibCheck --noEmit",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "clean": "./scripts/clean.sh",
     "storybook": "./scripts/storybook.sh",
     "package:count": "./scripts/package-count.sh"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   },
   "packageManager": "pnpm@9.8.0"
 }
