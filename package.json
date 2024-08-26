@@ -13,13 +13,14 @@
     "url": "https://github.com/namvnngu/namui/issues"
   },
   "scripts": {
-    "clean": "./scripts/clean.sh",
-    "dev": "pnpm -r --parallel run dev",
-    "format": "biome format --write ./",
     "lint": "biome lint ./",
-    "package:count": "./scripts/package-count.sh",
+    "format": "biome format --write ./",
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r --parallel run build",
+    "typecheck": "tsc --skipLibCheck --noEmit",
+    "clean": "./scripts/clean.sh",
     "storybook": "./scripts/storybook.sh",
-    "typecheck": "tsc --skipLibCheck --noEmit"
+    "package:count": "./scripts/package-count.sh"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
